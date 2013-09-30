@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>656B96F8-DA44-42DF-9234-D334BC8CDB1A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sokey</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CC614D5-D850-467F-8163-4EA5D848652B</key>
+		<string>https://github.com/dreamee21/Sokey.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sokey/Sokey.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CC614D5-D850-467F-8163-4EA5D848652B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dreamee21/Sokey.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CC614D5-D850-467F-8163-4EA5D848652B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CC614D5-D850-467F-8163-4EA5D848652B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sokey</string>
+		</dict>
+	</array>
+</dict>
+</plist>

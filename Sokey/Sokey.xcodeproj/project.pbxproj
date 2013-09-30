@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832FB88117F94220003BC76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FB88017F94220003BC76A /* Foundation.framework */; };
+		832FB88317F94220003BC76A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FB88217F94220003BC76A /* CoreGraphics.framework */; };
+		832FB88517F94220003BC76A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FB88417F94220003BC76A /* UIKit.framework */; };
+		832FB88B17F94220003BC76A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 832FB88917F94220003BC76A /* InfoPlist.strings */; };
+		832FB88D17F94220003BC76A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 832FB88C17F94220003BC76A /* main.m */; };
+		832FB89117F94220003BC76A /* WLBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 832FB89017F94220003BC76A /* WLBAppDelegate.m */; };
+		832FB89317F94220003BC76A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832FB89217F94220003BC76A /* Images.xcassets */; };
+		832FB89A17F94220003BC76A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FB89917F94220003BC76A /* XCTest.framework */; };
+		832FB89B17F94220003BC76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FB88017F94220003BC76A /* Foundation.framework */; };
+		832FB89C17F94220003BC76A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FB88417F94220003BC76A /* UIKit.framework */; };
+		832FB8A417F94220003BC76A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 832FB8A217F94220003BC76A /* InfoPlist.strings */; };
+		832FB8A617F94220003BC76A /* SokeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 832FB8A517F94220003BC76A /* SokeyTests.m */; };
+		832FB8B217F9465D003BC76A /* WLBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832FB8B017F9465D003BC76A /* WLBLoginViewController.m */; };
+		832FB8B317F9465D003BC76A /* WLBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832FB8B117F9465D003BC76A /* WLBLoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		832FB89D17F94220003BC76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832FB87517F94220003BC76A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832FB87C17F94220003BC76A;
+			remoteInfo = Sokey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		832FB87D17F94220003BC76A /* Sokey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sokey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		832FB88017F94220003BC76A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		832FB88217F94220003BC76A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		832FB88417F94220003BC76A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		832FB88817F94220003BC76A /* Sokey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sokey-Info.plist"; sourceTree = "<group>"; };
+		832FB88A17F94220003BC76A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		832FB88C17F94220003BC76A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		832FB88E17F94220003BC76A /* Sokey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sokey-Prefix.pch"; sourceTree = "<group>"; };
+		832FB88F17F94220003BC76A /* WLBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBAppDelegate.h; sourceTree = "<group>"; };
+		832FB89017F94220003BC76A /* WLBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBAppDelegate.m; sourceTree = "<group>"; };
+		832FB89217F94220003BC76A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		832FB89817F94220003BC76A /* SokeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		832FB89917F94220003BC76A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		832FB8A117F94220003BC76A /* SokeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SokeyTests-Info.plist"; sourceTree = "<group>"; };
+		832FB8A317F94220003BC76A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		832FB8A517F94220003BC76A /* SokeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SokeyTests.m; sourceTree = "<group>"; };
+		832FB8AF17F9465D003BC76A /* WLBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBLoginViewController.h; sourceTree = "<group>"; };
+		832FB8B017F9465D003BC76A /* WLBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBLoginViewController.m; sourceTree = "<group>"; };
+		832FB8B117F9465D003BC76A /* WLBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLBLoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832FB87A17F94220003BC76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832FB88317F94220003BC76A /* CoreGraphics.framework in Frameworks */,
+				832FB88517F94220003BC76A /* UIKit.framework in Frameworks */,
+				832FB88117F94220003BC76A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832FB89517F94220003BC76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832FB89A17F94220003BC76A /* XCTest.framework in Frameworks */,
+				832FB89C17F94220003BC76A /* UIKit.framework in Frameworks */,
+				832FB89B17F94220003BC76A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		832FB87417F94220003BC76A = {
+			isa = PBXGroup;
+			children = (
+				832FB88617F94220003BC76A /* Sokey */,
+				832FB89F17F94220003BC76A /* SokeyTests */,
+				832FB87F17F94220003BC76A /* Frameworks */,
+				832FB87E17F94220003BC76A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		832FB87E17F94220003BC76A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832FB87D17F94220003BC76A /* Sokey.app */,
+				832FB89817F94220003BC76A /* SokeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832FB87F17F94220003BC76A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832FB88017F94220003BC76A /* Foundation.framework */,
+				832FB88217F94220003BC76A /* CoreGraphics.framework */,
+				832FB88417F94220003BC76A /* UIKit.framework */,
+				832FB89917F94220003BC76A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832FB88617F94220003BC76A /* Sokey */ = {
+			isa = PBXGroup;
+			children = (
+				832FB88F17F94220003BC76A /* WLBAppDelegate.h */,
+				832FB89017F94220003BC76A /* WLBAppDelegate.m */,
+				832FB8AF17F9465D003BC76A /* WLBLoginViewController.h */,
+				832FB8B017F9465D003BC76A /* WLBLoginViewController.m */,
+				832FB8B117F9465D003BC76A /* WLBLoginViewController.xib */,
+				832FB89217F94220003BC76A /* Images.xcassets */,
+				832FB88717F94220003BC76A /* Supporting Files */,
+			);
+			path = Sokey;
+			sourceTree = "<group>";
+		};
+		832FB88717F94220003BC76A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				832FB88817F94220003BC76A /* Sokey-Info.plist */,
+				832FB88917F94220003BC76A /* InfoPlist.strings */,
+				832FB88C17F94220003BC76A /* main.m */,
+				832FB88E17F94220003BC76A /* Sokey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		832FB89F17F94220003BC76A /* SokeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				832FB8A517F94220003BC76A /* SokeyTests.m */,
+				832FB8A017F94220003BC76A /* Supporting Files */,
+			);
+			path = SokeyTests;
+			sourceTree = "<group>";
+		};
+		832FB8A017F94220003BC76A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				832FB8A117F94220003BC76A /* SokeyTests-Info.plist */,
+				832FB8A217F94220003BC76A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832FB87C17F94220003BC76A /* Sokey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832FB8A917F94220003BC76A /* Build configuration list for PBXNativeTarget "Sokey" */;
+			buildPhases = (
+				832FB87917F94220003BC76A /* Sources */,
+				832FB87A17F94220003BC76A /* Frameworks */,
+				832FB87B17F94220003BC76A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sokey;
+			productName = Sokey;
+			productReference = 832FB87D17F94220003BC76A /* Sokey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		832FB89717F94220003BC76A /* SokeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832FB8AC17F94220003BC76A /* Build configuration list for PBXNativeTarget "SokeyTests" */;
+			buildPhases = (
+				832FB89417F94220003BC76A /* Sources */,
+				832FB89517F94220003BC76A /* Frameworks */,
+				832FB89617F94220003BC76A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832FB89E17F94220003BC76A /* PBXTargetDependency */,
+			);
+			name = SokeyTests;
+			productName = SokeyTests;
+			productReference = 832FB89817F94220003BC76A /* SokeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		832FB87517F94220003BC76A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Waklabs;
+				TargetAttributes = {
+					832FB89717F94220003BC76A = {
+						TestTargetID = 832FB87C17F94220003BC76A;
+					};
+				};
+			};
+			buildConfigurationList = 832FB87817F94220003BC76A /* Build configuration list for PBXProject "Sokey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 832FB87417F94220003BC76A;
+			productRefGroup = 832FB87E17F94220003BC76A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832FB87C17F94220003BC76A /* Sokey */,
+				832FB89717F94220003BC76A /* SokeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		832FB87B17F94220003BC76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832FB88B17F94220003BC76A /* InfoPlist.strings in Resources */,
+				832FB8B317F9465D003BC76A /* WLBLoginViewController.xib in Resources */,
+				832FB89317F94220003BC76A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832FB89617F94220003BC76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832FB8A417F94220003BC76A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832FB87917F94220003BC76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832FB8B217F9465D003BC76A /* WLBLoginViewController.m in Sources */,
+				832FB89117F94220003BC76A /* WLBAppDelegate.m in Sources */,
+				832FB88D17F94220003BC76A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832FB89417F94220003BC76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832FB8A617F94220003BC76A /* SokeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		832FB89E17F94220003BC76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832FB87C17F94220003BC76A /* Sokey */;
+			targetProxy = 832FB89D17F94220003BC76A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		832FB88917F94220003BC76A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832FB88A17F94220003BC76A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		832FB8A217F94220003BC76A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832FB8A317F94220003BC76A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		832FB8A717F94220003BC76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		832FB8A817F94220003BC76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		832FB8AA17F94220003BC76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sokey/Sokey-Prefix.pch";
+				INFOPLIST_FILE = "Sokey/Sokey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		832FB8AB17F94220003BC76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sokey/Sokey-Prefix.pch";
+				INFOPLIST_FILE = "Sokey/Sokey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		832FB8AD17F94220003BC76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sokey.app/Sokey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sokey/Sokey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SokeyTests/SokeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		832FB8AE17F94220003BC76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sokey.app/Sokey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sokey/Sokey-Prefix.pch";
+				INFOPLIST_FILE = "SokeyTests/SokeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832FB87817F94220003BC76A /* Build configuration list for PBXProject "Sokey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832FB8A717F94220003BC76A /* Debug */,
+				832FB8A817F94220003BC76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832FB8A917F94220003BC76A /* Build configuration list for PBXNativeTarget "Sokey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832FB8AA17F94220003BC76A /* Debug */,
+				832FB8AB17F94220003BC76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		832FB8AC17F94220003BC76A /* Build configuration list for PBXNativeTarget "SokeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832FB8AD17F94220003BC76A /* Debug */,
+				832FB8AE17F94220003BC76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 832FB87517F94220003BC76A /* Project object */;
+}

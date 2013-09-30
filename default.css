@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* common */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+ul {
+	display: table;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.button {
+	cursor: pointer;
+}
+
+a:link {
+	text-decoration: none;
+	color: #666666;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+
+/* login && signup */
+#loginLogo {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#loginContents {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#loginContents input {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
+}
+
+#signupBtn {
+	text-align: center;
+}
